@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 .logo{
     font-size: 48px;
@@ -25,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 16px;
+    z-index: 100;
 }
 
 .navbar-logo{
@@ -41,6 +41,7 @@
 ul>li{
   font-size: 20px;
   font-weight: 400;
+  list-style: none;
 }
 
 
@@ -59,7 +60,8 @@ ul>li{
     padding: 20px 40px;
     border-radius: 8px;
     color: white;
-    background-color: rgba(182, 182, 182, 0.833);
+    background-color: rgba(182, 182, 182, 0.933);
+    z-index: 100;
 }
 
 .hidden{

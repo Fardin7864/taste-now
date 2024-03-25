@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className=" navbar">
+      <div className=" navbar" style={{ maxWidth: '1280px',}}>
         <div className=" navbar-logo">
           <div className="menu-icon" onClick={toggleMenu}>
             {isOpen ? <CiMenuFries /> : <CiMenuBurger />}
