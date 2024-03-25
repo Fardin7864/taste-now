@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Praise&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+.text-praise {
+  font-family: "Praise", cursive;
+}
+.text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:"Poppins", sans-serif;
+}
