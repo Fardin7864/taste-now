@@ -1,4 +1,5 @@
 import './App.css'
+import Aboutus from './components/AboutUs/Aboutus'
 import Banner from './components/Banner/Banner'
 import Categories from './components/Categories/Categories'
 import Navbar from './components/Navbar/Navbar'
@@ -11,6 +12,7 @@ function App() {
     <div style={{maxWidth: '1280px', marginLeft: 'auto', marginRight: 'auto', marginBottom: '200px'}}>
     <Banner/>
     <Categories/>
+    <Aboutus/>
     </div>
     </div>
   )
