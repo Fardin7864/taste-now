@@ -6,6 +6,7 @@
     top: -50px;
     z-index: -10;
     background-color: #fcfcfc;
+    /* border: 2px solid black; */
 }
 
 .category-title{
@@ -33,9 +34,12 @@
     font-size: 24px;
     font-weight: 400;
     padding: 8px 30px;
-    background-color: #ffffff;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
     color: #f72d57;
+    background-color: #ffffff;
+}
+.active{
+    background-color: #f72d57;
 }
 .btn-container{
     justify-content: center;
@@ -70,9 +74,16 @@ button:active{
     opacity: 40%;
 }
 
+.carousel-container{
+    margin-top: 60px;
+    padding: 30px 0;
+    width: 60vw;
+}
 
 @media screen and (max-width: 1024px) {
-
+    .carousel-container{
+        width: 100%;
+    }
 }
 
 
