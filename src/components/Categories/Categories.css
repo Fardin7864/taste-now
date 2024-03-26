@@ -7,3 +7,81 @@
     z-index: -10;
     background-color: #fcfcfc;
 }
+
+.category-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+.tab-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.tab{
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+    color: #f72d57;
+}
+.btn-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+}
+.tab:hover{
+    background-color: #f72d57;
+    color: white;
+}
+.tab.active{
+    background-color: #f72d57;
+    color: white;
+}
+
+.slider-card{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+button:hover{
+    opacity: 70%;
+}
+button:active{
+    opacity: 40%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .category-title{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 28px;
+        padding: 0 8px;
+    }
+}
+
